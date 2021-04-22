@@ -3,27 +3,27 @@
 
 float x1,x2,disc;
 
-void f1(int a,int b)//µ±disc´óÓÚÁãÊ± 
+void f1(int a,int b)//å½“discå¤§äºé›¶æ—¶ 
 {
 	x1=(-b+sqrt(disc))/(2*a);
 	x1=(-b+sqrt(disc))/(2*a);
-	printf("¸Ã·½³ÌÓĞÁ½¸ö²»Í¬µÄ½â£ºx1 = %f,x2 = %f¡£\n",x1,x2);
+	printf("è¯¥æ–¹ç¨‹æœ‰ä¸¤ä¸ªä¸åŒçš„è§£ï¼šx1 = %f,x2 = %fã€‚\n",x1,x2);
 }
-void f2(int a,int b)//µ±discµÈÓÚÁãÊ± 
+void f2(int a,int b)//å½“discç­‰äºé›¶æ—¶ 
 {
 	x1=(-b)/(2*a);
-	printf("¸Ã·½³ÌÓĞÁ½¸ö²»Í¬µÄ½â£ºx1 = x2 = %f¡£\n",x1);
+	printf("è¯¥æ–¹ç¨‹åªæœ‰ä¸€ä¸ªè§£ï¼šx1 = x2 = %fã€‚\n",x1);
 }
 
 void f3(int a,int b)
 {
-	printf("¸Ã·½³ÌÎŞ½â!");
+	printf("è¯¥æ–¹ç¨‹æ— è§£!");
 }
 
 int main()
 {
 	int a,b,c;
-	printf("ÇëÊäÈë¶ÔÓ¦µÄ a b c: ");
+	printf("è¯·è¾“å…¥å¯¹åº”çš„ a b c: ");
 	scanf("%d %d %d",&a,&b,&c);
 	
 	disc=b*b-4*a*c; 
